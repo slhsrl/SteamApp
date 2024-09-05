@@ -1,0 +1,81 @@
+.gdb{
+    display: flex;
+    max-width: 100%;
+    max-height: 70px;
+    align-items: center;
+    color: rgb(174, 171, 171);
+    
+}
+.gdbtn{
+    width: 180px;
+    height: 55px;
+    background-color: rgb(95, 136, 237);
+    margin-left: 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: large;
+    color: white;
+}
+.gdbtext{
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 0.4;
+}
+.gdicons{
+  position: absolute;
+  display: flex;
+   margin-right: 35px;
+    right: 0;
+    font-size: x-large;
+   
+}
+.gdicon{
+    display: flex;
+    margin-left: 10px;
+    padding: 4px;
+    background-color: rgb(89, 88, 88);
+    align-items: center;
+    border-radius: 5px;
+    color: rgb(168, 167, 167);
+}
+.gdicon:hover{
+    background-color: rgb(99, 99, 99);
+    color: white;
+}
+.gdbtn:hover{
+   background: linear-gradient(to right,aqua, rgb(95, 136, 237));
+}
+.pUpper{
+   color: rgb(174, 174, 174);
+}
+.pUnder{
+    color: rgb(157, 156, 156);
+ }
+ .gdtext1{
+    margin-left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 0.4;
+    margin-right: 240px;
+ }
+ .gdtext2{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 0.4;
+    margin-right: 240px;
+    align-items: center;
+ }
+ .gdtext3{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 0.4;
+    align-items: center;
+ }
+ .faclock{
+    font-size: 30px;
+ }
+ .GrAchievement{
+    font-size: 30px;
+ }
+ .gdp{
+    margin-left: 10px;
+ }

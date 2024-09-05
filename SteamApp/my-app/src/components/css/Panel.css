@@ -1,0 +1,101 @@
+.panelselect{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(34, 34, 44);
+    border: none;
+    color: rgb(160, 158, 158);
+  border-radius: 3px;
+  outline: none;
+}
+.panelsearc{
+    display: flex;
+   margin-top: 15px;
+   background-color: rgba(34, 34, 44, 0.995);
+   width: 275px;
+}
+.panel{
+ 
+    display: inline-flex;
+    margin-top: 15px;
+    z-index: 2;
+}
+.icon{
+    margin-left: 10px;
+    color: gray;
+    font-size: 28px;
+   
+}
+.iconps{
+    color: gray;
+    font-size: 25px;
+}
+.icon:hover{
+    color: white;
+}
+.input-panel{
+    box-sizing: border-box;
+    width: 100%;
+    height: 25px;
+    background-color: rgb(34, 34, 44);
+    border: none;
+    border-radius: 3px;
+    color: rgb(185, 166, 166);
+    outline: none;
+}
+.allpanel{
+    position: relative;
+    z-index: 1;
+    background-color: #1b2838;
+
+}
+.GamesName{
+    margin-top: 10px;
+}
+.panelalt{
+    display: flex;
+    align-items: center;
+    height: 55px;
+    background-color:#171d25;
+   
+    width: 100%;
+    
+}
+.panelalt1{
+    display: flex;
+    width: calc(100% - 70px);
+    height: 35px;
+    margin-left: 15px;
+    background-color: rgba(51, 49, 49, 0.581);
+    color: rgb(200, 200, 200);
+    align-items: center;
+    padding-left: 15px;
+    border-radius: 3px;
+    min-width: 100px;
+}
+.panelpading{
+ padding-left: 15px;
+}
+.AiTwotoneAppstore{
+    font-size: xx-large;
+    background-color: rgb(54, 54, 54);
+    margin-left: 3px;
+    padding: 1px;
+}
+.panelselect::-webkit-scrollbar{
+    background: #1b2838;
+    width: 4px;
+  }
+  .panelselect::-webkit-scrollbar-thumb{
+    background: rgb(136, 167, 202);
+    border-radius: 6px;
+  }
+  .gamenamecbk{
+    width: calc(100% - 12px);
+    height: 20px;
+    background: linear-gradient(to right,rgba(50, 45, 45, 0.66),rgba(39, 31, 50, 0.216));
+    margin-top: 15px;
+    font-size: x-small;
+    display: flex;
+    color: rgb(203, 203, 203);
+    align-items: center;
+  }

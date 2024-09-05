@@ -1,0 +1,13 @@
+.App{
+  background-color: #1b2838;
+}
+.Navbar{
+  display: block;
+  background-color: #171d25;
+  height: 90px;
+  width: 100%;
+  font-family: "Motiva Sans", Sans-serif;
+  font-weight: normal;
+  position: fixed;
+ 
+}

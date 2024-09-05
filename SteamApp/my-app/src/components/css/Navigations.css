@@ -1,0 +1,19 @@
+.menuitem{
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: "Motiva Sans", "Twemoji", "Noto Sans", Helvetica, sans-serif;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.active{
+    color: #1a9fff;
+    text-decoration:underline;
+}
+.navmenu{
+    display: flex;
+    margin-left: 75px;
+}

@@ -1,0 +1,28 @@
+.Footer{
+    display: flex;
+    color: rgb(149, 168, 172);
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 40px;
+    background-color: #171d25;
+    z-index: 10;
+    font-size: small;
+}
+.footerleft{
+    display: flex;
+   flex: 1;
+   margin-left: 25px;
+}
+.footercenter{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.footerright{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 25px;
+}

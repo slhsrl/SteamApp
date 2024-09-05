@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+  }
+  
+  .section {
+    box-sizing: border-box; 
+  }
+  
+  .one-1 {
+    flex: 1; 
+    display: flex;
+  flex-direction: column;
+    color: white;
+    margin-top: 90px;
+    height: 100vh;
+    height:calc(100vh - 130px);
+    overflow: auto;
+  }
+  .one-1::-webkit-scrollbar,.two-2::-webkit-scrollbar{
+    background: #1b2838;
+    width: 4px;
+  }
+  .one-1::-webkit-scrollbar-thumb,.two-2::-webkit-scrollbar-thumb{
+    background: rgb(136, 167, 202);
+    border-radius: 6px;
+  }
+  .two-2 {
+    flex: 4; 
+    border: 2px solid black;
+    margin-top: 90px;
+    position: relative;
+    height: 100vh;
+    height:calc(100vh - 130px);
+    overflow: auto;
+  } 
+  .gamedetailupper{
+    height: 400px;
+   
+  }
+  .gamedetailunder{
+    width: 100%;
+    height: 400px;
+    /* filter: blur(25px); */
+    position: relative;
+  
+  }
+  .gamedetailunderborder{
+    display: flex;
+    position: absolute;
+    top: 369px;
+    width: 100%;
+    height: 400px;   
+  }
+ .Gdetailsbuttuon{
+  position: absolute;
+  display: flex;
+  z-index: 2;
+  width: 100%;
+  height: 70px;
+ }

@@ -1,0 +1,94 @@
+.navbar-lover{
+   display: flex;
+   position: relative;
+   height: 74px;
+}
+.navbar-upper{
+display: flex;
+position: relative;
+height: 30px;
+}
+.navbar-upper-left{
+    display: flex;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+.navbar-upper-right{
+    display: flex;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+
+}
+.nav-steam-icon-a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+
+    color: grey;
+    font-size: 14px;
+    margin-left: 7px;
+}
+.nav-steam-icon-a:hover{
+    color: rgb(255, 255, 255);
+   
+}
+.steam-icon{
+    color: grey;
+}
+.nav-steam-icon-text{
+    color: gray;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.nav-right-a-megaphone,.nav-right-a-bell{
+    display: flex;
+    width: 48px;
+    height: 25px;
+    background-color:#313131;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+}
+.nav-right-a-megaphone-icon,.nav-right-a-bell-icon{
+    color: rgb(165, 165, 165);
+}
+.nav-rigt-user-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    margin-top: 4px;
+}
+.nav-rigt-user{
+    margin-left: 8px;
+}
+.nav-right-a-user{
+    display: flex;
+
+    height: 25px;
+    background-color:#313131;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+    padding-right: 5px;
+    
+}
+.navbar-lover-arrow{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.navbar-lover-arrow>i{
+    margin-right: 10px;
+    color: rgb(85, 84, 84);
+}
+.navbar-lover-arrow>i:hover{
+    color: rgb(255, 255, 255);
+}
+.nav-right-a-megaphone-icon,.nav-right-a-bell-icon,.nav-steam-icon-a:hover{
+    color: white;
+}
